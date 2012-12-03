@@ -21,8 +21,6 @@ def reachable(point):
     return result
 
 def SG(memo, point):
-    global fuck_yeahed
-
     if point not in memo:
         losing = True
 
