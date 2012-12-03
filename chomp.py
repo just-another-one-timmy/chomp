@@ -66,7 +66,7 @@ def main():
 
     while True:
         print "Enter position (" + \
-            str([cols_count] * 4).replace("[", "").replace("]","") + \
+            str([cols_count] * rows_count).replace("[", "").replace("]","") + \
             " would be a fair starting point)"
 
         input = read_tuple()
